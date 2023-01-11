@@ -19,4 +19,4 @@ def pascal_triangle(n):
             aux.append(line[i] + line[i + 1])
         aux.append(1)
         triangle.append(aux)
-    return 
+    return triangle
